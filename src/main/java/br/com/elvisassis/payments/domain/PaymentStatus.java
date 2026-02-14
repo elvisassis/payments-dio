@@ -1,1 +1,1 @@
-package br.com.elvisassis.payments.domain;public class PaymentStatus {}
+package br.com.elvisassis.payments.domain;public enum PaymentStatus {    CREATED,    PROCESSING,    APPROVED,    FAILED}
