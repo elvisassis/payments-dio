@@ -1,0 +1,1 @@
+package br.com.elvisassis.payments.provider;public class PaypalPaymentAdapter {}

@@ -1,0 +1,1 @@
+package br.com.elvisassis.payments.service;public class PaymentService {}

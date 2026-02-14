@@ -1,0 +1,1 @@
+package br.com.elvisassis.payments.dto;public class PaymentResponseDTO {}

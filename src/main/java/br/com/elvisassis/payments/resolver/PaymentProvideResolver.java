@@ -1,0 +1,1 @@
+package br.com.elvisassis.payments.resolver;public class PaymentProvideResolver {}

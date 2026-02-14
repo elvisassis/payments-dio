@@ -1,0 +1,1 @@
+package br.com.elvisassis.payments.exceptions;public class PaymentException {}

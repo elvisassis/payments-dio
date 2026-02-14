@@ -1,0 +1,1 @@
+package br.com.elvisassis.payments.listener;public class PaymentEmailListener {}
