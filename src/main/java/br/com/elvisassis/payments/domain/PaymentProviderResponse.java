@@ -1,0 +1,1 @@
+package br.com.elvisassis.payments.domain;public record PaymentProviderResponse(        String externalId,        PaymentStatus status) {}

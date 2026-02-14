@@ -1,1 +1,1 @@
-package br.com.elvisassis.payments.provider;public class PaymentProvider {}
+package br.com.elvisassis.payments.provider;import br.com.elvisassis.payments.domain.Payment;import br.com.elvisassis.payments.domain.PaymentProviderResponse;public interface PaymentProvider {    String name();    PaymentProviderResponse process(Payment payment);}

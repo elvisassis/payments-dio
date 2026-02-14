@@ -1,1 +1,0 @@
-package br.com.elvisassis.payments.facade;public class PaymentFacede {}
