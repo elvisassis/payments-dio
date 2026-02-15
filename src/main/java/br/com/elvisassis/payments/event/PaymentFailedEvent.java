@@ -1,0 +1,1 @@
+package br.com.elvisassis.payments.event;import java.util.UUID;public record PaymentFailedEvent(        UUID paymentId,        String provider) {}
