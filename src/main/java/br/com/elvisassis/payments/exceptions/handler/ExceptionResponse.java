@@ -1,0 +1,1 @@
+package br.com.elvisassis.payments.exceptions.handler;import java.util.Date;public record ExceptionResponse(Date timeStamp,                                String message,                                int status,                                String path) {}
