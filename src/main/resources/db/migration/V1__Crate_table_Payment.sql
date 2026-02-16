@@ -1,1 +1,1 @@
-CREATE TABLE IF NOT EXISTS person (    id BIGINT AUTO_INCREMENT PRIMARY KEY,    first_name VARCHAR(80) NOT NULL,    last_name VARCHAR(80) NOT NULL,    address VARCHAR(100) NOT NULL,    gender VARCHAR(6) NOT NULL);
+CREATE TABLE payments(    id       UUID PRIMARY KEY DEFAULT gen_random_uuid(),    amount   NUMERIC(19, 2) NOT NULL,    currency VARCHAR(3)     NOT NULL,    status   VARCHAR(50)    NOT NULL,    method   VARCHAR(50)    NOT NULL,    provider VARCHAR(100),    external_transaction_id VARCHAR(100));

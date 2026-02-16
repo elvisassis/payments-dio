@@ -1,1 +1,1 @@
-package br.com.elvisassis.payments.dto;public class PaymentResponseDTO {}
+package br.com.elvisassis.payments.dto;import br.com.elvisassis.payments.domain.PaymentMethod;import br.com.elvisassis.payments.domain.PaymentStatus;import java.math.BigDecimal;import java.util.UUID;public record PaymentResponse(        UUID id,        BigDecimal amount,        String currency,        PaymentMethod method,        PaymentStatus status,        String externalTransactionId,        String provider) {}

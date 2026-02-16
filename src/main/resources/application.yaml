@@ -1,3 +1,9 @@
 spring:
   application:
     name: payments
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true

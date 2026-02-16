@@ -1,1 +1,1 @@
-package br.com.elvisassis.payments.exceptions;public class PaymentException {}
+package br.com.elvisassis.payments.exceptions;public class PaymentException extends RuntimeException {    public PaymentException(String message) {        super(message);    }}

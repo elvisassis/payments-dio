@@ -1,1 +1,1 @@
-package br.com.elvisassis.payments.exceptions;public class ProvideNotFoundException {}
+package br.com.elvisassis.payments.exceptions;public class ProvideNotFoundException extends RuntimeException {    public ProvideNotFoundException(String message) {        super(message);    }}

@@ -1,0 +1,1 @@
+spring:  datasource:    url: jdbc:postgresql://prod-server:5432/database_prod    username: prod_user    password: prod_pass  jpa:    hibernate:      ddl-auto: none    show-sql: false
