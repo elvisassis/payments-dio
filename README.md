@@ -98,8 +98,8 @@ Para testar o fluxo principal, envie uma requisição `POST` para o endpoint aba
 
 ## 6. Tecnologias
 
--   Java 17
--   Spring Boot 3
+-   Java 25
+-   Spring Boot 4
 -   Spring Data JPA
 -   Maven
--   H2 Database (banco de dados em memória para simplicidade)
+-   PostegreSQL
